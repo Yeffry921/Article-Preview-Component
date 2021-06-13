@@ -10,11 +10,59 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
 }
 .wrapper {
   max-width: 375px;
+  height: 570px;
   background-color: #fff;
   border-radius: 15px;
   overflow: hidden;
+  margin: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+.article-heading {
+  flex: .65;
+}
+.article-body {
+  flex: 1.35;
+}
+.article-heading img {
+  height: 200px;
+  width: 100%;
 }
 
+.article-body {
+  padding: 0 2em;
+}
+.article-title {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  margin-top: 1rem
+}
+.article-description {
+  font-weight: 500;
+  color: red;
+  font-size: 13px;
+  line-height: 1.5;
+  color:hsl(214, 17%, 51%);
+  margin-top: 1rem;
+  
+}
+
+.profile-card {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.profile-card img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+.profile-card .share {
+  justify-self: flex-end;
+  display: block;
+}
