@@ -29,24 +29,24 @@ body {
 .article-heading {
   flex: 1;
 }
-.article-body {
-  flex: 2;
-}
+
 .article-heading img {
   height: 200px;
   width: 100%;
 }
 
 .article-body {
-  padding: 0 2em;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  flex: 2;
+  padding: 0 2em;
 }
 .article-title {
   font-weight: 700;
   color: hsl(217, 19%, 35%);
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 .article-description {
   font-weight: 500;
@@ -88,4 +88,12 @@ body {
   border: 1px solid hsl(210, 46%, 95%);
   padding: 10px;
   background-color: hsl(210, 46%, 95%);
+}
+.share-footer-container {
+  background-color: hsl(217, 19%, 35%);
+  align-self: stretch;
+}
+.share-footer {
+  padding: 0 2em;
+  display: flex;
 }
